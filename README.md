@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+    Semantic HTML is HTML that has meaning. Example: <section> is semantic; it's more specific than <div>, which is not semantic. Section tells you that you're looking at a certain section of the webpage, while div only tells you that you're looking at a block element/container.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+    display:block makes the object appear on a new line. display:inline does not move the object to a new line.
 
 3. What are the 4 areas of the box model?
+    content, padding, margin, border
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    cross axis. 
 
 5. Explain why git is valuable to a team of developers.
+    Git is valuable to a team of developers because it allows for developers to work on the same project - developers can fork the project, add their own, send a pull request and then the code can be merged to the project.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -93,7 +98,7 @@ You will also notice there are 10 boxes on the home page that need background co
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
-Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout. 
+Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout.  
 
 ## Stretch Problems
 
